@@ -13,6 +13,9 @@ public class Main {
         num.close();
 
         int factorial1 = 1,factorial2 = 1,factorial3 = 1;
+        if(r == 0){
+            System.out.println("Combination result equals to : 1.");
+        }
 
 
         for(int i = 1; i <= n; i++ ){
